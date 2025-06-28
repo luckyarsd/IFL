@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IFL Institute - Premium Notes</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* bg-gray-50 */
+            color: #1e293b; /* text-gray-800 */
+        }
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased">
+
+    <!-- Navigation Bar -->
+    <header class="bg-white shadow-md py-4 fixed w-full z-10 top-0">
+        <nav class="container mx-auto px-4 flex justify-between items-center">
+            <!-- Logo -->
+            <a href="index.html" class="flex items-center space-x-2">
+                <svg class="h-8 w-8 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13.5m0-13.5C10.835 5.47 9.294 4.5 7.5 4.5S4.165 5.47 3 6.253m9 0C13.165 5.47 14.706 4.5 16.5 4.5S19.835 5.47 21 6.253m-18 6.99v2.247c0 1.25.992 2.012 2.25 2.012h13.5c1.258 0 2.25-.762 2.25-2.012v-2.247m-18 0h18"></path>
+                </svg>
+                <span class="text-2xl font-extrabold text-gray-900">IFL Institute</span>
+            </a>
+
+            <!-- Back to Home Button -->
+            <div>
+                <a href="index.html" class="text-indigo-600 hover:text-indigo-800 font-semibold transition duration-300">
+                    &larr; Back to Home
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="pt-20 pb-16"> <!-- Added padding-top for fixed header, padding-bottom for footer -->
+
+        <section class="container mx-auto px-6 py-16 lg:py-28">
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-gray-900 text-center mb-10">
+                Exclusive <span class="text-indigo-600">Premium Notes</span> for You!
+            </h1>
+            <p class="text-gray-700 text-xl leading-relaxed text-center max-w-3xl mx-auto mb-12">
+                Welcome to your comprehensive library of premium study materials. These notes are meticulously crafted by our top faculty to provide in-depth understanding and advanced insights.
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+                <!-- Module 1: Advanced Grammar & Usage -->
+                <div class="bg-white rounded-3xl shadow-xl p-8 border border-gray-100 transform hover:scale-102 transition duration-300 ease-in-out">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4 flex items-center">
+                        <i class="fas fa-book-open text-indigo-500 mr-3 text-3xl"></i> Advanced Grammar & Usage
+                    </h3>
+                    <p class="text-gray-700 mb-4">
+                        Dive deep into complex sentence structures, advanced punctuation rules, common grammatical errors, and idiomatic expressions that will elevate your English proficiency.
+                    </p>
+                    <ul class="list-disc list-inside text-gray-600 space-y-2 pl-4 mb-6">
+                        <li>Subjunctive Mood & Inversion</li>
+                        <li>Advanced Conditional Clauses</li>
+                        <li>Participle Phrases & Dangling Modifiers</li>
+                        <li>Complex Sentence Connectors</li>
+                    </ul>
+                    <a href="https://example.com/premium_grammar_notes.pdf" target="_blank" class="inline-block bg-indigo-600 text-white px-6 py-3 rounded-full text-md font-semibold hover:bg-indigo-700 transition duration-300 ease-in-out shadow-md">
+                        Download Module 1 Notes <i class="fas fa-download ml-2"></i>
+                    </a>
+                </div>
+
+                <!-- Module 2: Academic & Professional Writing -->
+                <div class="bg-white rounded-3xl shadow-xl p-8 border border-gray-100 transform hover:scale-102 transition duration-300 ease-in-out">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4 flex items-center">
+                        <i class="fas fa-file-alt text-green-500 mr-3 text-3xl"></i> Academic & Professional Writing
+                    </h3>
+                    <p class="text-gray-700 mb-4">
+                        Master the art of formal writing for essays, research papers, reports, and business communication. Learn structuring, tone, and persuasive techniques.
+                    </p>
+                    <ul class="list-disc list-inside text-gray-600 space-y-2 pl-4 mb-6">
+                        <li>Essay Structure & Thesis Development</li>
+                        <li>Report Writing & Data Interpretation</li>
+                        <li>Business Email & Correspondence Etiquette</li>
+                        <li>Referencing Styles (APA, MLA, Chicago)</li>
+                    </ul>
+                    <a href="https://example.com/premium_writing_notes.pdf" target="_blank" class="inline-block bg-indigo-600 text-white px-6 py-3 rounded-full text-md font-semibold hover:bg-indigo-700 transition duration-300 ease-in-out shadow-md">
+                        Download Module 2 Notes <i class="fas fa-download ml-2"></i>
+                    </a>
+                </div>
+
+                <!-- Module 3: Vocabulary Expansion & Idioms -->
+                <div class="bg-white rounded-3xl shadow-xl p-8 border border-gray-100 transform hover:scale-102 transition duration-300 ease-in-out">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4 flex items-center">
+                        <i class="fas fa-lightbulb text-yellow-500 mr-3 text-3xl"></i> Vocabulary Expansion & Idioms
+                    </h3>
+                    <p class="text-gray-700 mb-4">
+                        Broaden your lexical range with advanced vocabulary, phrasal verbs, and common English idioms to sound more native and articulate.
+                    </p>
+                    <ul class="list-disc list-inside text-gray-600 space-y-2 pl-4 mb-6">
+                        <li>Thematic Vocabulary Lists</li>
+                        <li>Common Phrasal Verbs & Usage</li>
+                        <li>Idioms in Context & Practice</li>
+                        <li>Synonyms, Antonyms, and Nuances</li>
+                    </ul>
+                    <a href="https://example.com/premium_vocabulary_notes.pdf" target="_blank" class="inline-block bg-indigo-600 text-white px-6 py-3 rounded-full text-md font-semibold hover:bg-indigo-700 transition duration-300 ease-in-out shadow-md">
+                        Download Module 3 Notes <i class="fas fa-download ml-2"></i>
+                    </a>
+                </div>
+
+                <!-- Module 4: Advanced Spoken English & Pronunciation -->
+                <div class="bg-white rounded-3xl shadow-xl p-8 border border-gray-100 transform hover:scale-102 transition duration-300 ease-in-out">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4 flex items-center">
+                        <i class="fas fa-microphone-alt text-purple-500 mr-3 text-3xl"></i> Advanced Spoken English & Pronunciation
+                    </h3>
+                    <p class="text-gray-700 mb-4">
+                        Refine your accent, master intonation patterns, and practice advanced conversational techniques for seamless and natural communication.
+                    </p>
+                    <ul class="list-disc list-inside text-gray-600 space-y-2 pl-4 mb-6">
+                        <li>Intonation & Stress Patterns</li>
+                        <li>Connected Speech & Reductions</li>
+                        <li>Role-playing Scenarios</li>
+                        <li>Public Speaking Tips</li>
+                    </ul>
+                    <a href="https://example.com/premium_spoken_notes.pdf" target="_blank" class="inline-block bg-indigo-600 text-white px-6 py-3 rounded-full text-md font-semibold hover:bg-indigo-700 transition duration-300 ease-in-out shadow-md">
+                        Download Module 4 Notes <i class="fas fa-download ml-2"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="mt-16 text-center">
+                <p class="text-lg text-gray-700 mb-6">
+                    Looking for more? Explore our full range of courses on the main page.
+                </p>
+                <a href="index.html#courses" class="inline-block border border-indigo-600 text-indigo-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-indigo-100 transition duration-300 ease-in-out">
+                    View All Courses
+                    <span class="ml-2">&#8594;</span>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-12 mt-12">
+        <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+            <!-- Footer Brand -->
+            <div>
+                <a href="index.html" class="flex items-center justify-center md:justify-start space-x-2 mb-4">
+                    <svg class="h-8 w-8 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13.5m0-13.5C10.835 5.47 9.294 4.5 7.5 4.5S4.165 5.47 3 6.253m9 0C13.165 5.47 14.706 4.5 16.5 4.5S19.835 5.47 21 6.253m-18 6.99v2.247c0 1.25.992 2.012 2.25 2.012h13.5c1.258 0 2.25-.762 2.25-2.012v-2.247m-18 0h18"></path>
+                    </svg>
+                    <span class="text-2xl font-extrabold text-white">IFL Institute</span>
+                </a>
+                <p class="text-gray-400">Mastering English, Empowering Futures.</p>
+            </div>
+
+            <!-- Quick Links -->
+            <div>
+                <h3 class="text-xl font-bold text-white mb-4">Quick Links</h3>
+                <ul class="space-y-2">
+                    <li><a href="index.html#home" class="hover:text-indigo-400 transition duration-300">Home</a></li>
+                    <li><a href="index.html#about" class="hover:text-indigo-400 transition duration-300">About Us</a></li>
+                    <li><a href="index.html#courses" class="hover:text-indigo-400 transition duration-300">Courses</a></li>
+                    <li><a href="index.html#faculty" class="hover:text-indigo-400 transition duration-300">Faculty</a></li>
+                    <li><a href="index.html#gallery" class="hover:text-indigo-400 transition duration-300">Gallery</a></li>
+                    <li><a href="index.html#testimonials" class="hover:text-indigo-400 transition duration-300">Testimonials</a></li>
+                    <li><a href="index.html#contact" class="hover:text-indigo-400 transition duration-300">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Info -->
+            <div>
+                <h3 class="text-xl font-bold text-white mb-4">Contact Us</h3>
+                <ul class="space-y-2">
+                    <li><p class="flex items-center justify-center md:justify-start">
+                        <svg class="w-5 h-5 mr-2 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                        123 English Avenue, Learning City, Country
+                    </p></li>
+                    <li><p class="flex items-center justify-center md:justify-start">
+                        <svg class="w-5 h-5 mr-2 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684L10.5 9.87a1 1 0 001.07 1.68l2.85-2.85a1 1 0 011.68 1.071L16.023 13.5c-.007.03-.017.06-.027.094m-1.42 6.75a8.999 8.999 0 01-4.43-1.488c-.687-.42-1.258-.96-1.745-1.579C5.59 15.68 4 12.016 4 9s1.59-6.68 4.228-8.312c.54-.333 1.154-.532 1.8-.574L12.5 1h.5a7 7 0 017 7v4.5"></path></svg>
+                        +1 (987) 654-3210
+                    </p></li>
+                    <li><p class="flex items-center justify-center md:justify-start">
+                        <svg class="w-5 h-5 mr-2 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8m-18 4v7a2 2 0 002 2h14a2 2 0 002-2v-7m-18 0V5a2 2 0 012-2h14a2 2 0 012 2v7"></path></svg>
+                        info@iflinstitute.com
+                    </p></li>
+                </ul>
+            </div>
+        </div>
+        <div class="mt-8 pt-8 border-t border-gray-700 text-center text-gray-500">
+            &copy; 2025 IFL Institute. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+</html>
